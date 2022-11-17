@@ -48,6 +48,7 @@ options:
 ---
 
 <img src="https://raw.githubusercontent.com/gwen001/related-domains/main/preview.png" />
+<img src="https://raw.githubusercontent.com/gwen001/related-domains/main/whoxy.png" />
 
 ---
 
