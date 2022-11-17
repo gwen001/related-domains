@@ -16,6 +16,10 @@
 
 ---
 
+## Note
+
+The tool does not search for similar domains, it uses the informations of the domain you provide (contact email, organization...) to search for domains that have been registered by the same peoples/companies.
+
 ## Install
 
 ```
