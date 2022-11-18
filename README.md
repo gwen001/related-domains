@@ -33,7 +33,7 @@ You'll also need a [WHOXY API key](https://www.whoxy.com/), **it's free**.
 ## Usage
 
 ```
-$ python3 related-domains.py -d example.com -k $WHOXY_KEY
+$ python3 related-domains.py -d example.com -k xxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ```
