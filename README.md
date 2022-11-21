@@ -20,6 +20,10 @@
 
 The tool does not search for similar domains, it uses the informations of the domain you provide (contact email, organization...) to search for domains that have been registered by the same peoples/companies. So the results are quite reliable.
 
+## Requirements
+
+You need a [WHOXY API key](https://www.whoxy.com/) but <b><ins>it's free</ins></b>.
+
 ## Install
 
 ```
@@ -27,8 +31,6 @@ git clone https://github.com/gwen001/related-domains
 cd related-domains
 pip3 install -r requirements.txt
 ```
-
-You'll also need a [WHOXY API key](https://www.whoxy.com/) but <b><ins>it's free</ins></b>.
 
 ## Usage
 
