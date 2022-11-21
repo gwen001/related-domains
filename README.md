@@ -53,8 +53,8 @@ options:
 
 ---
 
-<img src="https://raw.githubusercontent.com/gwen001/related-domains/main/preview.png" />
-<img src="https://raw.githubusercontent.com/gwen001/related-domains/main/whoxy.png" />
+<img src="https://raw.githubusercontent.com/gwen001/related-domains/master/preview.gif" />
+<img src="https://raw.githubusercontent.com/gwen001/related-domains/master/whoxy.png" />
 
 ---
 
