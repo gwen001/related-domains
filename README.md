@@ -28,7 +28,7 @@ cd related-domains
 pip3 install -r requirements.txt
 ```
 
-You'll also need a [WHOXY API key](https://www.whoxy.com/) but **</u>it's free</u>**.
+You'll also need a [WHOXY API key](https://www.whoxy.com/) but <b><u>it's free</u></b>.
 
 ## Usage
 
