@@ -53,6 +53,11 @@ options:
   -v, --verbose         enable verbose mode, default off
 ```
 
+## Usage
+
+- 2023-03-26: code review & builtwith added
+
+
 ---
 
 <img src="https://raw.githubusercontent.com/gwen001/related-domains/master/preview.gif" />
