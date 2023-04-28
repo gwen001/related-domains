@@ -139,7 +139,7 @@ def extractDatasWhoxy( t_json ):
             if email and email not in t_data['emails']:
                 t_data['emails'].append( email )
 
-    return company,email
+    return
 
 
 def extractDataWhoxy( t_json, tab ):
@@ -204,22 +204,25 @@ if not _domain and not len(t_data['companies']) and not len(t_data['emails']):
 if args.key:
     _whoxy_key = args.key
 else:
-    _whoxy_key = ""
+    _whoxy_key =  os.getenv('WHOXY_KEY')
+    if not _whoxy_key:
+        _whoxy_key = ""
 
 
 if _domain:
     if _verbose:
         sys.stdout.write( '%s[+] search for domain: %s%s\n' % (fg('green'),_domain,attr(0)) )
 
-    searchDomainBuiltwith( _domain )
+    # sorry it's not relevant enough
+    # searchDomainBuiltwith( _domain )
 
     if len(_whoxy_key):
         searchDomainWhoxy( _domain, _whoxy_key )
 
 
-if len(_whoxy_key):
+if len(_whoxy_key) and len(t_data['companies']):
     searchCompanyWhoxy( _whoxy_key )
 
 
-if len(_whoxy_key):
+if len(_whoxy_key) and len(t_data['emails']):
     searchEmailWhoxy( _whoxy_key )
