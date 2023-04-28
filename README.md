@@ -62,6 +62,7 @@ options:
 
 ## Changelog
 
+- 2023-04-28: remove builtwith because it was not relevant at all, fix a fatal bug
 - 2023-03-26: code review & builtwith added
 
 
