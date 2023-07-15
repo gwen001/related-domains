@@ -173,6 +173,7 @@ def extractDataWhoxy( t_json, tab ):
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-e","--email",help="email you are looking for (required or -d or -c)" )
+parser.add_argument( "-b","--builtwith",help="use builtwith as an additional source", action="store_true" )
 parser.add_argument( "-c","--company",help="company you are looking for (required or -d or -e)" )
 parser.add_argument( "-d","--domain",help="domain you already know (required or -c)" )
 parser.add_argument( "-k","--key",help="whoxy api key (required)" )
@@ -213,8 +214,8 @@ if _domain:
     if _verbose:
         sys.stdout.write( '%s[+] search for domain: %s%s\n' % (fg('green'),_domain,attr(0)) )
 
-    # sorry it's not relevant enough
-    # searchDomainBuiltwith( _domain )
+    if args.builtwith:
+        searchDomainBuiltwith( _domain )
 
     if len(_whoxy_key):
         searchDomainWhoxy( _domain, _whoxy_key )
