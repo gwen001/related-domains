@@ -57,11 +57,14 @@ options:
   -d DOMAIN, --domain DOMAIN
                         domain you already know (required or -c)
   -k KEY, --key KEY     whoxy api key (required)
+  -s SOURCE, --source SOURCE
+                        list of sources separated by comma, available sources are: builtwith,crtsh,whoxy (default=whoxy)
   -v, --verbose         enable verbose mode, default off
 ```
 
 ## Changelog
 
+- 2023-07-18: builtwith re-enabled and crtsh added
 - 2023-04-28: remove builtwith because it was not relevant at all, fix a fatal bug
 - 2023-03-26: code review & builtwith added
 
