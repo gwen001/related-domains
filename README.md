@@ -62,7 +62,7 @@ options:
   -v, --verbose         enable verbose mode, default off
 ```
 
-# How it works
+## How it works
 
 - whoxy, reliance: pretty good
   get domains with the same infos (contact mails and company names) of the domain supplied, ex: paypal.com -> PayPal Inc.
