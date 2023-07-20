@@ -73,7 +73,7 @@ options:
   ex: paypal.com -> UA-53389718
 
 - crtsh, reliance: soso  
-  performs the following search: %supplied-domain-name-without-tld%  
+  performs an extended search using the supplied domain name without tld  
   ex: paypal.com -> %paypal%
 
 ## Changelog
