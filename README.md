@@ -64,13 +64,13 @@ options:
 
 ## How it works
 
-- whoxy, reliance: pretty good
+- whoxy, reliance: pretty good  
   get domains with the same infos (contact mails and company names) of the domain supplied, ex: paypal.com -> PayPal Inc.
 
-- builtwith, reliance: not that bad
+- builtwith, reliance: not that bad  
   get domains that use the same tags of the domain supplied, ex: paypal.com -> UA-53389718
 
-- crtsh, reliance: soso
+- crtsh, reliance: soso  
   performs the following search: %supplied-domain-name-without-tld%, ex: paypal.com -> %paypal%
 
 ## Changelog
