@@ -74,7 +74,7 @@ options:
 
 - crtsh, reliance: soso  
   performs an extended search using the supplied domain name without tld  
-  ex: paypal.com -> *paypal*
+  ex: paypal.com -> \*paypal\*
 
 ## Changelog
 
