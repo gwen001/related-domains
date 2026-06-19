@@ -1,3 +1,4 @@
 argparse
 requests
 colored
+tldextract
